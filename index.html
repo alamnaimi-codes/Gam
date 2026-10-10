@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ND DAV Public School</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f2f8ff;
+      color: #222;
+    }
+
+    header {
+      background-color: #2b6ca3;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header img {
+      width: 75px;
+      vertical-align: middle;
+    }
+
+    nav {
+      background-color: #d9ecff;
+      text-align: center;
+      padding: 12px;
+    }
+
+    nav a {
+      color: #174a75;
+      margin: 0 12px;
+      text-decoration: none;
+    }
+
+    section {
+      background-color: white;
+      margin: 20px auto;
+      padding: 20px;
+      width: 80%;
+      border: 1px solid #c9d9e8;
+    }
+
+    h2 {
+      color: #2b6ca3;
+    }
+
+    .person {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .person img {
+      width: 150px;
+      height: 170px;
+      object-fit: cover;
+      border: 1px solid #c9d9e8;
+    }
+
+    .teacher-photo {
+      width: 150px;
+      height: 170px;
+      object-fit: cover;
+      border: 1px solid #c9d9e8;
+    }
+
+    .topper-photo {
+      display: block;
+      max-width: 100%;
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    .school-pictures {
+      display: flex;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .school-pictures figure {
+      flex: 1;
+      margin: 0;
+    }
+
+    .school-pictures img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      border: 1px solid #c9d9e8;
+    }
+
+    .school-pictures figcaption {
+      margin-top: 5px;
+    }
+
+    .gallery {
+      display: flex;
+      gap: 15px;
+      overflow-x: auto;
+    }
+
+    .gallery img {
+      width: 260px;
+      height: 200px;
+      object-fit: cover;
+      border: 1px solid #c9d9e8;
+    }
+
+    .gallery-buttons {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .gallery-buttons button {
+      background-color: #2b6ca3;
+      color: white;
+      border: 0;
+      padding: 10px 18px;
+      margin: 0 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    footer {
+      background-color: #2b6ca3;
+      color: white;
+      text-align: center;
+      padding: 12px;
+    }
+
+    @media (max-width: 600px) {
+      section {
+        width: 85%;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px;
+      }
+
+      .school-pictures {
+        flex-direction: column;
+      }
+
+      .person {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header id="home">
+    <img src="https://davkumarganj.com/MyImages/LOGO.png" alt="ND DAV School logo">
+    <h1>ND DAV Public School</h1>
+    <p>Learn Today, Lead Tomorrow</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#people">Our People</a>
+    <a href="#topper">Toppers</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Our School</h2>
+    <p>Narendra Deva DAV Public School was established in 1993. The school is on the N.D. University of Agriculture and Technology campus in Kumarganj.</p>
+    <p>We help students learn new skills, take part in activities, and grow into confident individuals.</p>
+    <div class="school-pictures">
+      <figure>
+        <img src="https://davkumarganj.com/File/293/Message_2bbc70d6-6d0f-4443-b524-9d0e244d9cc9_front%20title%20page.JPG" alt="ND DAV Public School">
+        <figcaption>Our School</figcaption>
+      </figure>
+      <figure>
+        <img src="https://davkumarganj.com/File/293//Slider_3f2b3f4b-5e5a-4a7b-b1df-e08387065fa6_WhatsApp%20Image%202025-12-13%20at%208.03.20%20PM.jpeg" alt="Students at the school science exhibition">
+        <figcaption>Science Exhibition</figcaption>
+      </figure>
+      <figure>
+        <img src="https://davkumarganj.com/File/293//Slider_acb8e152-fdf0-49e8-8410-29bae17e3d38_WhatsApp%20Image%202025-08-15%20at%2010.23.06%20AM.jpeg" alt="School Independence Day celebration">
+        <figcaption>Independence Day</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="people">
+    <h2>Our Principal</h2>
+    <div class="person">
+      <img src="https://davkumarganj.com/File/293/principalmada.JPG" alt="Principal Pushpa Kumari">
+      <div>
+        <h3>Mrs. Pushpa Kumari</h3>
+        <p>Principal, ND DAV Public School</p>
+        <p>Our school encourages the all-round development of every student.</p>
+      </div>
+    </div>
+    <h2>Our Teachers</h2>
+    <div class="person">
+      <img class="teacher-photo" src="gallery/teacher-karangheer.png" alt="Teacher Karangheer">
+      <div>
+        <h3>Karandheer Mishra</h3>
+        <p>IP Teacher, ND DAV Public School</p>
+      </div>
+    </div>
+    <div class="person">
+      <img class="teacher-photo" src="gallery/ramesh.jpeg" alt="Teacher Ramesh Mishra">
+      <div>
+        <h3>Ramesh Mishra</h3>
+        <p>Maths Teacher, ND DAV Public School</p>
+      </div>
+    </div>
+    <div class="person">
+      <img class="teacher-photo" src="gallery/mithali.jpg" alt="Teacher Mithali">
+      <div>
+        <h3>MITHALI MAAM</h3>
+        <p>English Teacher, ND DAV Public School</p>
+      </div>
+  </section>
+
+  <section id="topper">
+    <h2>Our Toppers</h2>
+    <p>Class XII toppers</p>
+    <img class="topper-photo" src="https://davkumarganj.com/File/293/Slider_264a92cf-229c-40be-8a37-de8be7d28d04_CLASS%20XII%20TOPPERS.jpg.jpeg" alt="Class XII toppers from the school website">
+  </section>
+
+  <section id="gallery">
+    <h2>Our Friends Gallery</h2>
+    <p>Some memorable moments with friends.</p>
+    <div class="gallery" id="friendGallery">
+      <img src="gallery/IMG20260325153738.jpg" alt="Friends together in school uniform">
+      <img src="gallery/IMG20260325153715.jpg" alt="Friend standing in school uniform">
+      <img src="gallery/IMG20260209181443.jpg" alt="Friend portrait">
+      <img src="gallery/IMG20260209173941.jpg" alt="Friends spending time together">
+      <img src="gallery/IMG20260209111717.jpg" alt="Friends outdoors">
+      <img src="gallery/IMG-20260209-WA0055.jpg" alt="Friends at a celebration">
+      <img src="gallery/IMG-20260209-WA0050.jpg" alt="Two friends together">
+      <img src="gallery/IMG-20260209-WA0109.jpg" alt="Friends at school">
+      <img src="gallery/IMG_20260210_215720.jpg" alt="Friends group photo">
+    </div>
+    <div class="gallery-buttons">
+      <button type="button" onclick="slideGallery(-1)">&#8592; Previous</button>
+      <button type="button" onclick="slideGallery(1)">Next &#8594;</button>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>ND DAV Public School</strong></p>
+    <p>N.D. University of Agriculture &amp; Technology Campus, Kumarganj, Ayodhya, Uttar Pradesh - 224229</p>
+    <p>Email: <a href="mailto:nddavkumarganj@gmail.com">nddavkumarganj@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>Copyright 2026 ND DAV Public School</p>
+  </footer>
+  <script>
+    function slideGallery(direction) {
+      var gallery = document.getElementById("friendGallery");
+      gallery.scrollLeft += direction * 280;
+    }
+  </script>
+</body>
+</html>
